@@ -88,7 +88,8 @@ class sudoku_solver:
                     return False
         return True
 
-
+'''
+example
 board = np.array([[5, 3, 0, 0, 7, 0, 0, 0, 0],
                   [6, 0, 0, 1, 9, 5, 0, 0, 0],
                   [0, 9, 8, 0, 0, 0, 0, 6, 0],
@@ -98,8 +99,7 @@ board = np.array([[5, 3, 0, 0, 7, 0, 0, 0, 0],
                   [0, 6, 0, 0, 0, 0, 2, 8, 0],
                   [0, 0, 0, 0, 1, 9, 0, 0, 5],
                   [0, 0, 0, 0, 0, 0, 0, 0, 0]])
+'''
 
-
-s = sudoku_solver(board)
-print(board)
+example = sudoku_solver(board)
 (print(sudoku_solver.solve(s)))
